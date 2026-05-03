@@ -1,0 +1,28 @@
+{
+  "name": "kolr",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "echo 'Deployment is handled by GitHub Actions. Push to main branch or trigger manually.'",
+    "test:agents": "node src/agents/test.js"
+  },
+  "dependencies": {
+    "gsap": "^3.15.0",
+    "pinia": "^3.0.4",
+    "tone": "^15.1.22",
+    "vue": "^3.5.32",
+    "vue-router": "^5.0.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.2.4",
+    "@vitejs/plugin-vue": "^6.0.6",
+    "tailwindcss": "^4.2.4",
+    "vite": "^8.0.10",
+    "vite-plugin-pwa": "^1.2.0",
+    "dotenv-cli": "^11.0.0"
+  }
+}
